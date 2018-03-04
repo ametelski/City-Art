@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36ED5D544F7966464416E757 /* libPods-CityArt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 596B9EA01F604732D6CF384F /* libPods-CityArt.a */; };
+		F6095CA41FA8ED410010DDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6095CA31FA8ED410010DDF1 /* AppDelegate.swift */; };
+		F6095CA61FA8ED410010DDF1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6095CA51FA8ED410010DDF1 /* StartViewController.swift */; };
+		F6095CA91FA8ED420010DDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6095CA71FA8ED420010DDF1 /* Main.storyboard */; };
+		F6095CAC1FA8ED420010DDF1 /* CityArt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6095CAA1FA8ED420010DDF1 /* CityArt.xcdatamodeld */; };
+		F6095CAE1FA8ED420010DDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6095CAD1FA8ED420010DDF1 /* Assets.xcassets */; };
+		F6095CB11FA8ED420010DDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6095CAF1FA8ED420010DDF1 /* LaunchScreen.storyboard */; };
+		F6119FD71FA9012C009C2AA8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F6119FD61FA9012C009C2AA8 /* Podfile */; };
+		F6119FD91FA903C0009C2AA8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6119FD81FA903C0009C2AA8 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		596B9EA01F604732D6CF384F /* libPods-CityArt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CityArt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C99A00EA8E969EDC0BA5DD8 /* Pods-CityArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityArt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CityArt/Pods-CityArt.debug.xcconfig"; sourceTree = "<group>"; };
+		7E0254680DF33B50B9D6FF70 /* Pods-CityArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityArt.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityArt/Pods-CityArt.release.xcconfig"; sourceTree = "<group>"; };
+		F6095CA01FA8ED410010DDF1 /* CityArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6095CA31FA8ED410010DDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6095CA51FA8ED410010DDF1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		F6095CA81FA8ED420010DDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6095CAB1FA8ED420010DDF1 /* CityArt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CityArt.xcdatamodel; sourceTree = "<group>"; };
+		F6095CAD1FA8ED420010DDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6095CB01FA8ED420010DDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6095CB21FA8ED420010DDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6119FD61FA9012C009C2AA8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F6119FD81FA903C0009C2AA8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F64C633F1FA90A2C00A68733 /* Google Maps API key.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Google Maps API key.txt"; path = "../../Google Maps API key.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6095C9D1FA8ED410010DDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ED5D544F7966464416E757 /* libPods-CityArt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F9F0CEA9F88D3DCF182821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				596B9EA01F604732D6CF384F /* libPods-CityArt.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17C65B91D25578BE3124D88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C99A00EA8E969EDC0BA5DD8 /* Pods-CityArt.debug.xcconfig */,
+				7E0254680DF33B50B9D6FF70 /* Pods-CityArt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6095C971FA8ED410010DDF1 = {
+			isa = PBXGroup;
+			children = (
+				F6119FD61FA9012C009C2AA8 /* Podfile */,
+				F6095CA21FA8ED410010DDF1 /* CityArt */,
+				F6095CA11FA8ED410010DDF1 /* Products */,
+				C17C65B91D25578BE3124D88 /* Pods */,
+				20F9F0CEA9F88D3DCF182821 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6095CA11FA8ED410010DDF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6095CA01FA8ED410010DDF1 /* CityArt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6095CA21FA8ED410010DDF1 /* CityArt */ = {
+			isa = PBXGroup;
+			children = (
+				F6095CA31FA8ED410010DDF1 /* AppDelegate.swift */,
+				F6095CA51FA8ED410010DDF1 /* StartViewController.swift */,
+				F6095CA71FA8ED420010DDF1 /* Main.storyboard */,
+				F6095CAD1FA8ED420010DDF1 /* Assets.xcassets */,
+				F6095CAF1FA8ED420010DDF1 /* LaunchScreen.storyboard */,
+				F6095CB21FA8ED420010DDF1 /* Info.plist */,
+				F6095CAA1FA8ED420010DDF1 /* CityArt.xcdatamodeld */,
+				F64C633F1FA90A2C00A68733 /* Google Maps API key.txt */,
+				F6119FD81FA903C0009C2AA8 /* MapViewController.swift */,
+			);
+			path = CityArt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6095C9F1FA8ED410010DDF1 /* CityArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6095CB51FA8ED420010DDF1 /* Build configuration list for PBXNativeTarget "CityArt" */;
+			buildPhases = (
+				54BB7994B6218E5F90137B4F /* [CP] Check Pods Manifest.lock */,
+				F6095C9C1FA8ED410010DDF1 /* Sources */,
+				F6095C9D1FA8ED410010DDF1 /* Frameworks */,
+				F6095C9E1FA8ED410010DDF1 /* Resources */,
+				D275F96ECF862E4B162FEB61 /* [CP] Embed Pods Frameworks */,
+				34D2F68D0AA7F7A8E29650EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityArt;
+			productName = CityArt;
+			productReference = F6095CA01FA8ED410010DDF1 /* CityArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6095C981FA8ED410010DDF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ASU;
+				TargetAttributes = {
+					F6095C9F1FA8ED410010DDF1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F6095C9B1FA8ED410010DDF1 /* Build configuration list for PBXProject "CityArt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6095C971FA8ED410010DDF1;
+			productRefGroup = F6095CA11FA8ED410010DDF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6095C9F1FA8ED410010DDF1 /* CityArt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6095C9E1FA8ED410010DDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6095CB11FA8ED420010DDF1 /* LaunchScreen.storyboard in Resources */,
+				F6095CAE1FA8ED420010DDF1 /* Assets.xcassets in Resources */,
+				F6119FD71FA9012C009C2AA8 /* Podfile in Resources */,
+				F6095CA91FA8ED420010DDF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D2F68D0AA7F7A8E29650EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CityArt/Pods-CityArt-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityArt/Pods-CityArt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54BB7994B6218E5F90137B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CityArt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D275F96ECF862E4B162FEB61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityArt/Pods-CityArt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6095C9C1FA8ED410010DDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6095CA61FA8ED410010DDF1 /* StartViewController.swift in Sources */,
+				F6095CAC1FA8ED420010DDF1 /* CityArt.xcdatamodeld in Sources */,
+				F6095CA41FA8ED410010DDF1 /* AppDelegate.swift in Sources */,
+				F6119FD91FA903C0009C2AA8 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6095CA71FA8ED420010DDF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6095CA81FA8ED420010DDF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6095CAF1FA8ED420010DDF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6095CB01FA8ED420010DDF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6095CB31FA8ED420010DDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6095CB41FA8ED420010DDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6095CB61FA8ED420010DDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C99A00EA8E969EDC0BA5DD8 /* Pods-CityArt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJRZ6VKF85;
+				INFOPLIST_FILE = CityArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asu.CityArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6095CB71FA8ED420010DDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0254680DF33B50B9D6FF70 /* Pods-CityArt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJRZ6VKF85;
+				INFOPLIST_FILE = CityArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asu.CityArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6095C9B1FA8ED410010DDF1 /* Build configuration list for PBXProject "CityArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6095CB31FA8ED420010DDF1 /* Debug */,
+				F6095CB41FA8ED420010DDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6095CB51FA8ED420010DDF1 /* Build configuration list for PBXNativeTarget "CityArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6095CB61FA8ED420010DDF1 /* Debug */,
+				F6095CB71FA8ED420010DDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6095CAA1FA8ED420010DDF1 /* CityArt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6095CAB1FA8ED420010DDF1 /* CityArt.xcdatamodel */,
+			);
+			currentVersion = F6095CAB1FA8ED420010DDF1 /* CityArt.xcdatamodel */;
+			path = CityArt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6095C981FA8ED410010DDF1 /* Project object */;
+}
